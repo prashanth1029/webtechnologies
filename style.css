@@ -1,0 +1,118 @@
+/*
+body{
+    background-color:#FFCDD2;
+    background-color:rgb(red, green, blue);
+    background-color:rgb(100,200,300);
+    background-color:rgba(100, 200, 300,0.5);
+}
+h1{
+    color: orange;
+}
+
+h2{
+    color:red;
+}
+
+#p1{
+    color: chartreuse;
+}
+
+#p2{
+    color:royalblue;
+}
+
+.center{
+    color: aquamarine;
+}
+h1{
+    background-color:purple;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+body{
+    background-image: url("https://i.ytimg.com/vi/2v3YSRqWP0A/maxresdefault.jpg");
+}
+body{
+        font-family: "Times New Roman", Times, serif;      
+        font-style: italic;
+        font-size: 80px;
+        font-size: 1.2em;
+}
+*/
+/* a:link{
+    color: green;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: red;
+}
+
+a:visited{
+    color: blue;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: red;
+}
+a:hover{
+    color:hotpink;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: red;
+}
+a:active{
+    color:yellow;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: red;
+} 
+.top-banner{
+    color: purple;
+}
+.line1{
+    color: red;
+}
+
+.line2{
+    color: green;
+} */
+.container{
+    display: flex;/* by defualt row for column we can remove or set to column as below flex-dir to column*/
+    background-color: red;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+}
+.a{
+   min- width: 500px;
+    height: 150px;
+    background-color: greenyellow;
+     flex-grow: 1;/*propoprtions not real values*/
+    /*flex-shrink: 1; */
+}
+.b{
+    min-width: 500px;
+    height: 150px;
+    background-color: honeydew;
+     flex-grow: 1;
+   /* flex-shrink: 1; */
+}
+.c{
+    min-width: 500px;
+    height: 150px;
+    background-color: khaki;
+     flex-grow: 1;
+    /*flex-shrink: 4; */
+}
+.d{
+    min-width: 500px;
+    height: 150px;
+    background-color: lightgreen;
+     flex-grow: 1;
+    /*flex-shrink: 1; */
+}
